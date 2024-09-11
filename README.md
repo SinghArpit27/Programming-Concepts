@@ -376,10 +376,9 @@ These questions provide a medium level of complexity, requiring a deeper underst
 These questions require deeper thinking and often involve combining multiple conditions or mathematical operations. The test cases help illustrate edge cases and complex scenarios.
 
 ---
+---
 # Loops
 #### Here are some questions with test cases on the "loops" concept, categorized as easy, medium, and hard.
----
-
 
 ---
 ## Easy Level
