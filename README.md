@@ -382,8 +382,8 @@ These questions require deeper thinking and often involve combining multiple con
 
 
 ---
-## Hard Level
-#### These questions and test cases are designed to reinforce easy-level **For Loop** concept, designed to challenge problem-solving skills:
+## Easy Level
+#### These questions and test cases are designed to reinforce easy-level `For Loop` concept, designed to challenge problem-solving skills:
 ---
 
 ### 1. **Print numbers from 1 to 5**
