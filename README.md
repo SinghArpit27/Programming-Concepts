@@ -6,7 +6,7 @@
 
 ---
 ## Easy Level
-These questions and test cases are designed to reinforce basic "if-else" logic.
+#### These questions and test cases are designed to reinforce basic "if-else" logic.
 ---
 
 ### 1. **Check if a number is positive, negative, or zero**
