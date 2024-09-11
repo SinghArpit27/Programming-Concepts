@@ -375,4 +375,88 @@ These questions provide a medium level of complexity, requiring a deeper underst
 
 These questions require deeper thinking and often involve combining multiple conditions or mathematical operations. The test cases help illustrate edge cases and complex scenarios.
 
+---
+# Loops
+#### Here are some questions with test cases on the "loops" concept, categorized as easy, medium, and hard.
+---
+
+
+---
+## Hard Level
+#### These questions and test cases are designed to reinforce easy-level **For Loop** concept, designed to challenge problem-solving skills:
+---
+
+### 1. **Print numbers from 1 to 5**
+   - **Question**: Write a `for` loop to print numbers from 1 to 5.
+   - **Test Case**:
+     - **Input**: N/A
+     - **Expected Output**: `1 2 3 4 5`
+
+### 2. **Sum of first 5 numbers**
+   - **Question**: Write a `for` loop to calculate the sum of numbers from 1 to 5.
+   - **Test Case**:
+     - **Input**: N/A
+     - **Expected Output**: `15`
+
+### 3. **Print even numbers from 1 to 10**
+   - **Question**: Write a `for` loop to print even numbers between 1 and 10.
+   - **Test Case**:
+     - **Input**: N/A
+     - **Expected Output**: `2 4 6 8 10`
+
+### 4. **Print elements of an array**
+   - **Question**: Write a `for` loop to print each element of the array `[10, 20, 30, 40]`.
+   - **Test Case**:
+     - **Input**: `[10, 20, 30, 40]`
+     - **Expected Output**: `10 20 30 40`
+
+### 5. **Find the factorial of a number (n=4)**
+   - **Question**: Write a `for` loop to calculate the factorial of a number. Test it for `n=4`.
+   - **Test Case**:
+     - **Input**: `4`
+     - **Expected Output**: `24` (Factorial of 4 = 4 * 3 * 2 * 1)
+
+### 6. **Print multiplication table of 3**
+   - **Question**: Write a `for` loop to print the multiplication table of 3 up to 10 (i.e., 3 * 1 to 3 * 10).
+   - **Test Case**:
+     - **Input**: N/A
+     - **Expected Output**: 
+       ```
+       3 x 1 = 3
+       3 x 2 = 6
+       3 x 3 = 9
+       3 x 4 = 12
+       3 x 5 = 15
+       3 x 6 = 18
+       3 x 7 = 21
+       3 x 8 = 24
+       3 x 9 = 27
+       3 x 10 = 30
+       ```
+
+### 7. **Reverse print numbers from 5 to 1**
+   - **Question**: Write a `for` loop to print numbers from 5 to 1.
+   - **Test Case**:
+     - **Input**: N/A
+     - **Expected Output**: `5 4 3 2 1`
+
+### 8. **Print the sum of all elements in an array**
+   - **Question**: Write a `for` loop to calculate the sum of all elements in the array `[5, 10, 15]`.
+   - **Test Case**:
+     - **Input**: `[5, 10, 15]`
+     - **Expected Output**: `30`
+
+### 9. **Print odd numbers from 1 to 9**
+   - **Question**: Write a `for` loop to print odd numbers between 1 and 9.
+   - **Test Case**:
+     - **Input**: N/A
+     - **Expected Output**: `1 3 5 7 9`
+
+### 10. **Count down from 10 to 1**
+   - **Question**: Write a `for` loop to count down from 10 to 1.
+   - **Test Case**:
+     - **Input**: N/A
+     - **Expected Output**: `10 9 8 7 6 5 4 3 2 1`
+
+These questions cover basic use cases of `for` loops and introduce concepts like iteration, array traversal, summation, and factorials.
 
