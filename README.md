@@ -239,9 +239,140 @@
      3. Input: `50` → Output: `Out of range`
      4. Input: `5` → Output: `Out of range`
     
-
+---
 These questions provide a medium level of complexity, requiring a deeper understanding of the "if-else" concept and logic.
+
+
 ---
+## Hard Level
+#### These questions and test cases are designed to reinforce hard-level "if-else" concept, designed to challenge problem-solving skills:
 ---
+
+### 1. **Determine the type of triangle**
+   - **Question**: Write a program to determine the type of triangle given its three sides `a`, `b`, and `c`. The triangle can be:
+     - `Equilateral`: All sides are equal.
+     - `Isosceles`: Two sides are equal.
+     - `Scalene`: All sides are different.
+     - Additionally, check if the sides form a valid triangle (i.e., `a + b > c`, `a + c > b`, and `b + c > a`).
+
+   - **Test Cases**:
+     1. Input: `a=3, b=3, c=3` → Output: `Equilateral`
+     2. Input: `a=5, b=5, c=8` → Output: `Isosceles`
+     3. Input: `a=7, b=5, c=10` → Output: `Scalene`
+     4. Input: `a=1, b=2, c=10` → Output: `Not a valid triangle`
+
+---
+
+### 2. **Check if a number is an Armstrong number**
+   - **Question**: Write a program to check if a number is an Armstrong number (i.e., the sum of the cubes of its digits is equal to the number itself). This should work for 3-digit numbers.
+
+   - **Test Cases**:
+     1. Input: `153` → Output: `Armstrong number`
+     2. Input: `370` → Output: `Armstrong number`
+     3. Input: `123` → Output: `Not an Armstrong number`
+     4. Input: `947` → Output: `Not an Armstrong number`
+
+---
+
+### 3. **Check if a string contains only unique characters**
+   - **Question**: Write a program to check if all characters in a given string are unique (case-sensitive).
+
+   - **Test Cases**:
+     1. Input: `"abcdef"` → Output: `All unique`
+     2. Input: `"hello"` → Output: `Not unique`
+     3. Input: `"ABCabc"` → Output: `All unique`
+     4. Input: `"aA"` → Output: `All unique`
+
+---
+
+### 4. **Check if a number is a strong number**
+   - **Question**: Write a program to check if a given number is a strong number. A strong number is one where the sum of the factorials of its digits equals the number itself.
+
+   - **Test Cases**:
+     1. Input: `145` → Output: `Strong number` (`1! + 4! + 5! = 145`)
+     2. Input: `2` → Output: `Strong number` (`2! = 2`)
+     3. Input: `40585` → Output: `Strong number`
+     4. Input: `123` → Output: `Not a strong number`
+
+---
+
+### 5. **Check if two strings are anagrams**
+   - **Question**: Write a program to check if two strings are anagrams (i.e., they contain the same characters in any order).
+
+   - **Test Cases**:
+     1. Input: `"listen", "silent"` → Output: `Anagrams`
+     2. Input: `"triangle", "integral"` → Output: `Anagrams`
+     3. Input: `"apple", "pale"` → Output: `Not anagrams`
+     4. Input: `"abc", "def"` → Output: `Not anagrams`
+
+---
+
+### 6. **Calculate the income tax based on a progressive tax system**
+   - **Question**: Write a program to calculate the income tax based on the following rules:
+     - Income up to $10,000: No tax.
+     - Income from $10,001 to $50,000: 10% tax on this range.
+     - Income above $50,000: 20% tax on the portion above $50,000.
+
+   - **Test Cases**:
+     1. Input: `$8,000` → Output: `Tax = $0`
+     2. Input: `$30,000` → Output: `Tax = $2,000`
+     3. Input: `$70,000` → Output: `Tax = $7,000`
+     4. Input: `$50,000` → Output: `Tax = $4,000`
+
+---
+
+### 7. **Determine if a year is a leap year (with special rules)**
+   - **Question**: Write a program to check if a year is a leap year. A leap year is:
+     - Divisible by 4 but not divisible by 100, unless divisible by 400.
+
+   - **Test Cases**:
+     1. Input: `2000` → Output: `Leap year`
+     2. Input: `1900` → Output: `Not a leap year`
+     3. Input: `2024` → Output: `Leap year`
+     4. Input: `2100` → Output: `Not a leap year`
+
+---
+
+### 8. **Check if a number is a palindrome without converting to string**
+   - **Question**: Write a program to check if a number is a palindrome without converting the number to a string.
+
+   - **Test Cases**:
+     1. Input: `121` → Output: `Palindrome`
+     2. Input: `123` → Output: `Not a palindrome`
+     3. Input: `1221` → Output: `Palindrome`
+     4. Input: `1331` → Output: `Palindrome`
+
+---
+
+### 9. **Categorize age groups**
+   - **Question**: Write a program to categorize a person’s age into the following groups:
+     - 0-12: Child
+     - 13-19: Teenager
+     - 20-59: Adult
+     - 60 and above: Senior
+
+   - **Test Cases**:
+     1. Input: `10` → Output: `Child`
+     2. Input: `17` → Output: `Teenager`
+     3. Input: `30` → Output: `Adult`
+     4. Input: `65` → Output: `Senior`
+
+---
+
+### 10. **Check if a point lies inside a circle**
+   - **Question**: Write a program to check if a given point `(x, y)` lies inside a circle with center `(a, b)` and radius `r`. The formula to check this is:
+     \[
+     (x - a)^2 + (y - b)^2 \leq r^2
+     \]
+
+   - **Test Cases**:
+     1. Input: `x=1, y=2, a=0, b=0, r=5` → Output: `Inside the circle`
+     2. Input: `x=6, y=8, a=0, b=0, r=10` → Output: `Inside the circle`
+     3. Input: `x=10, y=10, a=0, b=0, r=5` → Output: `Outside the circle`
+     4. Input: `x=3, y=4, a=0, b=0, r=5` → Output: `On the circle`
+
+---
+
+These questions require deeper thinking and often involve combining multiple conditions or mathematical operations. The test cases help illustrate edge cases and complex scenarios.
 
 
