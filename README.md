@@ -459,3 +459,206 @@ These questions require deeper thinking and often involve combining multiple con
 
 These questions cover basic use cases of `for` loops and introduce concepts like iteration, array traversal, summation, and factorials.
 
+---
+## Medium Level
+#### These questions and test cases are designed to reinforce medium-level `For Loop` concept, designed to challenge problem-solving skills:
+---
+
+### 1. **Sum of digits of a number**
+   - **Question**: Write a `for` loop to calculate the sum of digits of a given number. For example, for `n = 1234`, the sum should be `1 + 2 + 3 + 4 = 10`.
+   - **Test Cases**:
+     - **Input**: `1234`
+     - **Expected Output**: `10`
+     - **Input**: `987`
+     - **Expected Output**: `24`
+
+### 2. **Reverse a string**
+   - **Question**: Write a `for` loop to reverse a given string.
+   - **Test Cases**:
+     - **Input**: `"hello"`
+     - **Expected Output**: `"olleh"`
+     - **Input**: `"world"`
+     - **Expected Output**: `"dlrow"`
+
+### 3. **Find prime numbers in a range**
+   - **Question**: Write a `for` loop to find all prime numbers between 1 and 20.
+   - **Test Cases**:
+     - **Input**: `1 to 20`
+     - **Expected Output**: `2 3 5 7 11 13 17 19`
+
+### 4. **Find the maximum value in an array**
+   - **Question**: Write a `for` loop to find the maximum value in an array `[3, 7, 2, 9, 4]`.
+   - **Test Cases**:
+     - **Input**: `[3, 7, 2, 9, 4]`
+     - **Expected Output**: `9`
+     - **Input**: `[10, 5, 8, 6]`
+     - **Expected Output**: `10`
+
+### 5. **Find the average of an array of numbers**
+   - **Question**: Write a `for` loop to find the average of the numbers in an array `[4, 8, 12, 16]`.
+   - **Test Cases**:
+     - **Input**: `[4, 8, 12, 16]`
+     - **Expected Output**: `10`
+     - **Input**: `[3, 6, 9]`
+     - **Expected Output**: `6`
+
+### 6. **Check if a number is a palindrome**
+   - **Question**: Write a `for` loop to check if a given number is a palindrome (reads the same forward and backward). For example, `121` is a palindrome.
+   - **Test Cases**:
+     - **Input**: `121`
+     - **Expected Output**: `True`
+     - **Input**: `123`
+     - **Expected Output**: `False`
+
+### 7. **Fibonacci series up to N terms**
+   - **Question**: Write a `for` loop to generate the Fibonacci series up to N terms. For example, for `N=7`, the output should be `0 1 1 2 3 5 8`.
+   - **Test Cases**:
+     - **Input**: `7`
+     - **Expected Output**: `0 1 1 2 3 5 8`
+     - **Input**: `5`
+     - **Expected Output**: `0 1 1 2 3`
+
+### 8. **Count occurrences of a letter in a string**
+   - **Question**: Write a `for` loop to count how many times the letter `a` appears in the string `"banana"`.
+   - **Test Cases**:
+     - **Input**: `"banana"`
+     - **Expected Output**: `3`
+     - **Input**: `"apple"`
+     - **Expected Output**: `1`
+
+### 9. **Find common elements in two arrays**
+   - **Question**: Write a `for` loop to find common elements in two arrays. For example, for `[1, 2, 3, 4]` and `[3, 4, 5, 6]`, the common elements are `3` and `4`.
+   - **Test Cases**:
+     - **Input**: `[1, 2, 3, 4]`, `[3, 4, 5, 6]`
+     - **Expected Output**: `[3, 4]`
+     - **Input**: `[7, 8, 9]`, `[10, 11, 8]`
+     - **Expected Output**: `[8]`
+
+### 10. **Count vowels in a string**
+   - **Question**: Write a `for` loop to count the number of vowels (`a, e, i, o, u`) in the string `"education"`.
+   - **Test Cases**:
+     - **Input**: `"education"`
+     - **Expected Output**: `5`
+     - **Input**: `"hello"`
+     - **Expected Output**: `2`
+
+These medium-level questions require understanding of loops, arrays, strings, basic arithmetic operations, and logical conditions.
+
+---
+## Hard Level
+#### These questions and test cases are designed to reinforce hard-level `For Loop` concept, designed to challenge problem-solving skills:
+---
+
+Here are 10 **hard-level** questions with test cases on the **For Loop** concept. Each question includes a detailed explanation, test cases, time complexity, and space complexity analysis:
+
+### 1. **Find the longest consecutive sequence in an array**
+   - **Question**: Write a `for` loop to find the length of the longest consecutive elements sequence in an unsorted array. For example, for `[100, 4, 200, 1, 3, 2]`, the longest consecutive sequence is `[1, 2, 3, 4]`, with a length of 4.
+   - **Test Cases**:
+     - **Input**: `[100, 4, 200, 1, 3, 2]`
+     - **Expected Output**: `4`
+     - **Input**: `[9, 1, 4, 7, 3, 2, 6, 5]`
+     - **Expected Output**: `7` (sequence: `[1, 2, 3, 4, 5, 6, 7]`)
+   - **Explanation**: Use a loop to iterate through the array, and for each number, try to find consecutive numbers using a nested loop.
+   - **Time Complexity**: O(n log n) due to sorting, or O(n) using a hash set.
+   - **Space Complexity**: O(n) for using additional space for sets.
+
+### 2. **Find the missing number in an array**
+   - **Question**: Given an array containing `n` distinct numbers in the range `[0, n]`, find the one missing number using a `for` loop. For example, for `[3, 0, 1]`, the missing number is `2`.
+   - **Test Cases**:
+     - **Input**: `[3, 0, 1]`
+     - **Expected Output**: `2`
+     - **Input**: `[9, 6, 4, 2, 3, 5, 7, 0, 1]`
+     - **Expected Output**: `8`
+   - **Explanation**: The sum of the first `n` natural numbers is `(n*(n+1))/2`. Use a `for` loop to subtract the actual sum of the array from this total sum.
+   - **Time Complexity**: O(n)
+   - **Space Complexity**: O(1)
+
+### 3. **Find the subarray with the largest sum (Kadane’s Algorithm)**
+   - **Question**: Use a `for` loop to find the contiguous subarray within an array (containing at least one number) which has the largest sum. For example, for `[-2,1,-3,4,-1,2,1,-5,4]`, the contiguous subarray `[4,-1,2,1]` has the largest sum of `6`.
+   - **Test Cases**:
+     - **Input**: `[-2,1,-3,4,-1,2,1,-5,4]`
+     - **Expected Output**: `6`
+     - **Input**: `[1]`
+     - **Expected Output**: `1`
+   - **Explanation**: Implement Kadane’s algorithm using a `for` loop to track the current subarray sum and update the maximum sum when needed.
+   - **Time Complexity**: O(n)
+   - **Space Complexity**: O(1)
+
+### 4. **Find all subarrays that sum to zero**
+   - **Question**: Write a `for` loop to find all subarrays whose sum is equal to zero. For example, for `[4, 2, -3, 1, 6]`, the subarrays `[2, -3, 1]` and `[-3, 1, 6]` have a sum of 0.
+   - **Test Cases**:
+     - **Input**: `[4, 2, -3, 1, 6]`
+     - **Expected Output**: `[[2, -3, 1]]`
+     - **Input**: `[1, 2, -3, 3, -1, 2]`
+     - **Expected Output**: `[[1, 2, -3], [-3, 3]]`
+   - **Explanation**: Use a `for` loop with nested loops to find all subarrays and check their sums.
+   - **Time Complexity**: O(n^2)
+   - **Space Complexity**: O(1) for result storage (ignoring result array space).
+
+### 5. **Trapping rainwater problem**
+   - **Question**: Given `n` non-negative integers representing the heights of an elevation map where the width of each bar is 1, find how much water it can trap after raining. Use a `for` loop to compute the water trapped at each index. For example, for `[0,1,0,2,1,0,1,3,2,1,2,1]`, the output should be `6`.
+   - **Test Cases**:
+     - **Input**: `[0,1,0,2,1,0,1,3,2,1,2,1]`
+     - **Expected Output**: `6`
+     - **Input**: `[4, 2, 0, 3, 2, 5]`
+     - **Expected Output**: `9`
+   - **Explanation**: Calculate water trapped by using `for` loops to find the maximum height to the left and right of each element.
+   - **Time Complexity**: O(n)
+   - **Space Complexity**: O(n) for auxiliary arrays.
+
+### 6. **Find the first non-repeating character in a string**
+   - **Question**: Write a `for` loop to find the first non-repeating character in a string. For example, for `"swiss"`, the first non-repeating character is `"w"`.
+   - **Test Cases**:
+     - **Input**: `"swiss"`
+     - **Expected Output**: `"w"`
+     - **Input**: `"programming"`
+     - **Expected Output**: `"p"`
+   - **Explanation**: Use a `for` loop to count occurrences of characters, then iterate again to find the first character with count 1.
+   - **Time Complexity**: O(n)
+   - **Space Complexity**: O(1) if using a fixed-size array for ASCII characters.
+
+### 7. **Check if an array can be partitioned into two subsets with equal sum**
+   - **Question**: Write a `for` loop to check if an array can be partitioned into two subsets with equal sum. For example, for `[1, 5, 11, 5]`, the array can be partitioned into `[1, 5, 5]` and `[11]`.
+   - **Test Cases**:
+     - **Input**: `[1, 5, 11, 5]`
+     - **Expected Output**: `True`
+     - **Input**: `[1, 2, 3, 5]`
+     - **Expected Output**: `False`
+   - **Explanation**: Use a `for` loop to calculate the total sum, and then check if the array can be partitioned using dynamic programming.
+   - **Time Complexity**: O(n * sum/2)
+   - **Space Complexity**: O(sum/2)
+
+### 8. **Count inversions in an array**
+   - **Question**: Write a `for` loop to count how many inversions (pairs `(i, j)` such that `arr[i] > arr[j]` and `i < j`) exist in the array. For example, for `[2, 4, 1, 3, 5]`, there are `3` inversions: `(2, 1)`, `(4, 1)`, and `(4, 3)`.
+   - **Test Cases**:
+     - **Input**: `[2, 4, 1, 3, 5]`
+     - **Expected Output**: `3`
+     - **Input**: `[1, 20, 6, 4, 5]`
+     - **Expected Output**: `5`
+   - **Explanation**: Use nested `for` loops to count all inversions.
+   - **Time Complexity**: O(n^2)
+   - **Space Complexity**: O(1)
+
+### 9. **Generate all permutations of a string**
+   - **Question**: Write a `for` loop to generate all permutations of a given string `"ABC"`. For example, for `"ABC"`, the permutations are `"ABC", "ACB", "BAC", "BCA", "CAB", "CBA"`.
+   - **Test Cases**:
+     - **Input**: `"ABC"`
+     - **Expected Output**: `["ABC", "ACB", "BAC", "BCA", "CAB", "CBA"]`
+     - **Input**: `"AB"`
+     - **Expected Output**: `["AB", "BA"]`
+   - **Explanation**: Use recursion with a `for` loop to swap characters and generate all permutations.
+   - **Time Complexity**: O(n!)
+   - **Space Complexity**: O(n!)
+
+### 10. **Find the product of array elements except self**
+   - **Question**: Write a `for` loop to find the product of all elements of an array except self, without using division
+
+. For example, for `[1, 2, 3, 4]`, the output is `[24, 12, 8, 6]`.
+   - **Test Cases**:
+     - **Input**: `[1, 2, 3, 4]`
+     - **Expected Output**: `[24, 12, 8, 6]`
+     - **Input**: `[5, 6, 2]`
+     - **Expected Output**: `[12, 10, 30]`
+   - **Explanation**: Use two `for` loops: one to accumulate product from the left and another to accumulate product from the right.
+   - **Time Complexity**: O(n)
+   - **Space Complexity**: O(1) if output array is not counted.
