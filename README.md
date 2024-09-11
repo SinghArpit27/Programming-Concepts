@@ -2,7 +2,7 @@
 
 ---
 
-##Here are 10 questions with test cases on the "if-else" concept for beginners:
+## Here are 10 questions with test cases on the "if-else" concept for beginners:
 
 ---
 
