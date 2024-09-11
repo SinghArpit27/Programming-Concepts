@@ -5,6 +5,9 @@
 ## Here are some questions with test cases on the "if-else" concept, categorized as easy, medium, and hard.
 
 ---
+## Easy Level
+These questions and test cases are designed to reinforce basic "if-else" logic.
+---
 
 ### 1. **Check if a number is positive, negative, or zero**
    - **Question**: Write a program that checks if a given number is positive, negative, or zero.
@@ -107,5 +110,6 @@
      3. Input: `" "` → Output: `Non-empty string`
 
 ---
+---
 
-These questions and test cases are designed to reinforce basic "if-else" logic.
+
