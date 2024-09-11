@@ -6,7 +6,7 @@
 
 ---
 ## Easy Level
-#### These questions and test cases are designed to reinforce basic "if-else" logic.
+#### These questions and test cases are designed to reinforce basic "if-else" concept.
 ---
 
 ### 1. **Check if a number is positive, negative, or zero**
@@ -111,8 +111,8 @@
 
 
 ---
-## Easy Level
-#### These questions and test cases are designed to reinforce medium-level "if-else" logic.
+## Medium Level
+#### These questions and test cases are designed to reinforce medium-level "if-else" concept.
 ---
 
 ### 1. **Check if a number is within a specific range**
